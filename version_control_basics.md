@@ -13,6 +13,10 @@ git checkout -b "<name-of-branch>"
 git add .
 git commit -m "<commit-message>"
 ```
+## Push changes to any branch
+```
+git push origin "<branch-name>"
+```
 ## Check status of current branch
 ```
 git status
