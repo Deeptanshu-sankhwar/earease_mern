@@ -29,3 +29,7 @@ git checkout <branch-name>
 ```
 git pull origin "<branch-name>"
 ```
+## reset branch
+```
+git reset --hard <--head-->
+```
