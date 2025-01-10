@@ -37,4 +37,8 @@ git reset --hard <--head-->
 ```
 git stash 
 ```
+## force push changes to the branch
+```
+git push origin "<branch-name>" --force
+```
 
