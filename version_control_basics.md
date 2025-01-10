@@ -33,3 +33,8 @@ git pull origin "<branch-name>"
 ```
 git reset --hard <--head-->
 ```
+## stash changes
+```
+git stash 
+```
+
