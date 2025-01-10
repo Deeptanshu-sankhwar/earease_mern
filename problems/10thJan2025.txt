@@ -1,0 +1,267 @@
+Go through these videos
+1. https://youtu.be/K6Q31YkorUE?si=muCL2C4QCDYlJacb
+2. https://www.youtube.com/watch?v=8JJ101D3knE
+3. https://youtu.be/rH3zE7VlIMs?si=05ESjbFD9_rBiySw
+4. https://youtu.be/zTjRZNkhiEU?si=c_lwqN4e-xtPaF2W
+5. https://www.youtube.com/watch?v=e9lnsKot_SQ
+
+These are over 10 hours of videos to watch on git, but you have Friday, Saturday and Sunday to complete them. You shall skip no single video from this list and complete all of them.
+
+Once you have completed watching these videos, solving these problems assigned to each one of you. The deadline to solve all these problems are Monday, 13th January 10 AM IST.
+
+The submission needs to be in a Pull Request you create from your branch to the main branch and share your PR on slack for review.
+
+1. Abrar Problems
+
+Question: What is the purpose of the git init command? Write an example scenario where you would use it.
+
+Answer:
+
+Question: Create a basic HTML page with a title "My First Page" and a heading that says "Welcome to HTML".
+
+Answer:
+
+Question: Write CSS to change the background color of a webpage to light blue and set the font color to dark gray.
+
+Answer:
+
+Question: Write a JavaScript function that takes a name as input and returns a greeting message like "Hello, [name]!".
+
+Answer:
+
+Question: What does the git status command do? Explain a scenario where it would be helpful.
+
+Answer:
+
+Question: Create a simple HTML form with fields for name, email, and a submit button.
+
+Answer:
+
+Question: What is the difference between an ID selector (#) and a class selector (.) in CSS? Provide examples.
+
+Answer:
+
+Question: Write JavaScript to display an alert message when a button is clicked.
+
+Answer:
+
+Question: What is the purpose of branches in Git? Create a new branch named "feature" and explain how to switch to it.
+
+Answer:
+
+Question: Create an HTML table with 3 columns: Name, Age, and City. Add 2 rows of data.
+
+Answer:
+
+Question: Explain the CSS Box Model and write CSS to give a div element a padding of 20px, a border of 2px solid black, and a margin of 15px.
+
+Answer:
+
+Question: Write a JavaScript function that takes an array of numbers and returns the largest number in the array.
+
+Answer:
+
+Question: Explain what happens during a git merge. Provide an example scenario where merging would be necessary.
+
+Answer:
+
+Question: Write JavaScript to change the text of a paragraph with the ID "demo" to "Hello, World!".
+
+Answer:
+
+Question: What is a merge conflict in Git? Explain how to resolve it step-by-step with an example.
+
+Answer:
+
+Question: Create a webpage using semantic HTML tags like <header>, <footer>, <article>, and <section>. Explain why semantic elements are important.
+
+Answer:
+
+Question: Create a 2x2 grid layout using CSS Grid. Add content to each grid cell and style them with different background colors.
+
+Answer:
+
+Question: Write a JavaScript function that returns a Promise. The Promise should resolve with the message "Data loaded successfully" after 2 seconds.
+
+Answer:
+
+Question: Explain the difference between git merge and git rebase. Describe a scenario where git rebase is more appropriate than git merge.
+
+Answer:
+
+Question: Write JavaScript to fetch data from an API (e.g., "https://jsonplaceholder.typicode.com/posts") and log the response to the console. Include error handling in your code.
+
+Answer:
+
+
+
+
+2. Charan Problems
+
+Question: Create a new Git repository and commit an empty README file.
+
+Answer:
+
+Question: Write a basic HTML structure for a webpage, including <doctype>, <html>, <head>, and <body> tags.
+
+Answer:
+
+Question: Style a button using CSS to have a blue background, white text, and rounded corners.
+
+Answer:
+
+Question: Write JavaScript to log "Hello, World!" to the console when the page loads.
+
+Answer:
+
+Question: Use the git log command to view the commit history. Explain what information it provides.
+
+Answer:
+
+Question: Create an HTML form with fields for username, password, and a login button.
+
+Answer:
+
+Question: Write CSS to create a shadow effect for a card element.
+
+Answer:
+
+Question: Write a JavaScript function to add two numbers and return the result.
+
+Answer:
+
+Question: What is the purpose of the .gitignore file? Write a sample .gitignore entry to ignore all .log files.
+
+Answer:
+
+Question: Create a webpage with a list of your favorite movies using the <ul> and <li> tags.
+
+Answer:
+
+Question: Use CSS Flexbox to center a div both vertically and horizontally within the viewport.
+
+Answer:
+
+Question: Write JavaScript to change the background color of a div when a button is clicked.
+
+Answer:
+
+Question: Demonstrate how to create a new branch in Git and push it to a remote repository.
+
+Answer:
+
+Question: Create an HTML table to display a schedule with columns for time, activity, and location.
+
+Answer:
+
+Question: Write CSS to make a navigation bar stick to the top of the page when scrolling.
+
+Answer:
+
+Question: Write JavaScript to count the number of times a button is clicked and display the count.
+
+Answer:
+
+Question: Use Git to revert to a previous commit. Explain the difference between git revert and git reset.
+
+Answer:
+
+Question: Create a webpage using semantic HTML tags like <header>, <footer>, and <article> to describe a blog post.
+
+Answer:
+
+Question: Use CSS Grid to create a three-column layout with rows for a header, content, and footer.
+
+Answer:
+
+Question: Write JavaScript to fetch data from an API and display the results on the webpage.
+
+Answer:
+
+
+
+3. Akhita Problems
+
+Question: Write JavaScript to fetch data from an API and display the results on the webpage.
+
+Answer:
+
+Question: Clone a remote repository from GitHub and explain the difference between git pull and git fetch.
+
+Answer:
+
+Question: Add a placeholder attribute to an HTML form field and explain its purpose.
+
+Answer:
+
+Question: Write CSS to style a card element with rounded corners, a border, and a drop shadow.
+
+Answer:
+
+Question: Write JavaScript to toggle the visibility of an element when a button is clicked.
+
+Answer:
+
+Question: Use the git diff command to compare changes in a file. Explain how this is useful in version control.
+
+Answer:
+
+Question: Create a webpage with a navigation bar using an unordered list styled horizontally with CSS.
+
+Answer:
+
+Question: Write CSS to style a container div to have a maximum width of 800px, centered on the page.
+
+Answer:
+
+Question: Write JavaScript to dynamically add an item to a list when a button is clicked.
+
+Answer:
+
+Question: Use git stash to temporarily save changes. Explain a scenario where git stash is useful.
+
+Answer:
+
+Question: Create a responsive HTML layout with a header, two columns, and a footer using CSS Grid.
+
+Answer:
+
+Question: Write JavaScript to display an alert box when the mouse hovers over a specific element.
+
+Answer:
+
+Question: Explain the purpose of the <meta> tag in HTML and provide an example.
+
+Answer:
+
+Question: Write CSS to style a button with a gradient background and a hover effect that changes its border color.
+
+Answer:
+
+Question: Write JavaScript to create a countdown timer that displays the remaining time in seconds.
+
+Answer:
+
+Question: Use Git to create and merge a branch. Explain the purpose of branches in collaborative development.
+
+Answer:
+
+Question: Create a webpage with a contact form that includes fields for name, email, and message, styled with CSS.
+
+Answer:
+
+Question: Write CSS to make an image responsive and centered within its container.
+
+Answer:
+
+Question: Write JavaScript to validate an email input field in a form and display an error message if invalid.
+
+Answer:
+
+Question: Explain the difference between git clone and git fork. Provide a scenario for using each.
+
+Answer:
+
+Question: Use CSS Flexbox to create a simple navigation bar with evenly spaced items.
+
+Answer:
