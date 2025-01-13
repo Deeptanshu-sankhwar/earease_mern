@@ -180,7 +180,7 @@ Answer:
 
 
 
-3. Akhita Problems
+3. Akitha Problems
 
 Question: Write JavaScript to fetch data from an API and display the results on the webpage.
 
@@ -188,15 +188,94 @@ Answer:
 
 Question: Clone a remote repository from GitHub and explain the difference between git pull and git fetch.
 
-Answer:
+Answer: $git clone "https://github.com/Deeptanshu-sankhwar/earease_mern"
+    $git pull origin "https://github.com/Deeptanshu-sankhwar/earease_mern"
+    ->git pull: downloads updates, merges changes, and conflict occurs immediately.
+    ->git fetch: downloads updates, it doesn't merge changes, conflict occurs but can be solved later.
 
 Question: Add a placeholder attribute to an HTML form field and explain its purpose.
 
-Answer:
+Answer: <form>
+  <label for="email">Email:</label>
+  <input type="email" id="email" placeholder="sirigiakitha21@gamil.com">
+  <br><br>
+  <input type="submit" value="submit"
+</form>
+
+The placeholder in a form field serves these purposes:
+
+1. Gives a Hint: It tells users what information to type into the field.
+2. Makes Forms Easier to Use: It helps keep the form simple by avoiding extra text or labels around the field.
+3. Shows an Example: It can provide an example of how the input should look, like showing "name@example.com(sirigiakitha21@gmail.com)" in an email field.
 
 Question: Write CSS to style a card element with rounded corners, a border, and a drop shadow.
 
-Answer:
+Answer: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Card</title>
+  <style>
+    body {
+      font-style: Ariel;
+      padding: 20px;
+      background-color: cyan;
+    }
+
+    .card {
+      background-color: white;
+      border: 1px solid red; /* Card border */
+      border-radius: 10px; /* Rounded corners */
+      box-shadow: 0 4px 8px (0, 0, 0, 0.1); /* Drop shadow */
+      padding: 20px;
+      max-width: 300px;
+      margin: auto;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px 10px 0 0; /* Rounded corners only on the top */
+    }
+
+    .card h3 {
+      margin-top: 15px;
+      font-size: 1.5em;
+    }
+
+    .card p {
+      font-size: 0.9em;
+      color: pink;
+      margin-top: 10px;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: orange;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .card a: hover {
+      background-color: lavender;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="Card Image">
+    <h3>Card Title</h3>
+    <p>This is a description of the card. It can contain details or other text that goes inside the card.</p>
+    <a href="#">Read More</a>
+  </div>
+ </body>
+</html>
+
 
 Question: Write JavaScript to toggle the visibility of an element when a button is clicked.
 
@@ -212,15 +291,78 @@ Answer:
 
 Question: Write CSS to style a container div to have a maximum width of 800px, centered on the page.
 
-Answer:
+Answer: <!DOCTYPE html>
+<html>
+<head>
+  <title>Centered Container</title>
+  <style>
+    .container
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>This is a centered container</h1>
+    <p>It has a maximum width of 800px and is centered on the page.</p>
+  </div>
+
+</body>
+</html>
+/* Style container */
+.container {
+  max-width: 800px;        
+  margin: 0 auto;          
+  padding: 20px;           
+  background-color: Blue; 
+  box-shadow: 0 4px 8px(0, 0, 0, 0.1); 
+}
 
 Question: Write JavaScript to dynamically add an item to a list when a button is clicked.
 
-Answer:
+Answer: <!DOCTYPE html>
+<html>
+<head>
+  <title>Dynamic List</title>
+</head>
+<body>
+
+  <h2>Item List</h2>
+  <ul id="itemList">
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+
+  <button id="addItemButton">Add Item</button>
+
+  <script src="script.js"></script> <!-- Link to the external JavaScript file -->
+
+</body>
+</html>
+
+// Get the button and the list by their IDs
+const addItemButton = document.getElementById('addItemButton');
+const itemList = document.getElementById('itemList');
+
+// Add an event listener for the button click
+addItemButton.addEventListener('click', function() {
+  // Create a new list item element
+  const newItem = document.createElement('li');
+
+  // Set the text content of the new item
+  newItem.textContent = `Item ${itemList.children.length + 1}`;
+
+  // Add the new item to the list
+  itemList.appendChild(newItem);
+});
+
 
 Question: Use git stash to temporarily save changes. Explain a scenario where git stash is useful.
 
-Answer:
+Answer: Git stash - its a git command that allows to save the changes temporarily which are not ready to commit yet. 
+
+git stash - for uncommited changes
+git commit-m "fixed bug/fix the bug" - for bug fixing. 
+
 
 Question: Create a responsive HTML layout with a header, two columns, and a footer using CSS Grid.
 
@@ -228,19 +370,84 @@ Answer:
 
 Question: Write JavaScript to display an alert box when the mouse hovers over a specific element.
 
-Answer:
+Answer: // Get the element by its ID
+const hoverElement = document.getElementById('hoverElement');
+
+// Add an event listener for the mouseover event
+hoverElement.addEventListener('mouseover', function() {
+  // Display an alert when the mouse hovers over the element
+  alert('You hovered over the text!');
+});
 
 Question: Explain the purpose of the <meta> tag in HTML and provide an example.
+Answer: <meta> tag is HTML metadata which provides the information about the webpage to the browser or search engines. this info is not displayed directly. 
 
-Answer:
+<html>
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+        <body>
+            <h1>hello welcome to this page.</h1>
+        </body>
+    </html>
 
 Question: Write CSS to style a button with a gradient background and a hover effect that changes its border color.
 
-Answer:
+Answer: <html>
+  <head>
+    <title>Styled Button</title>
+  </head>
+  <body>
+    <button class="gradient button">Click Me</button>
+    
+  </body>
+</html>
+
+/* Style for the button */
+.gradient-button {
+  background: linear-gradient;
+  border: 3px solid black;
+  border-radius: 6px;
+  color: pink;
+  padding: 12px; 
+  transition: 0.6s;
+}
+
+/* Hover Effect */
+.gradient-button:hover{
+  border-color: red;
+}
 
 Question: Write JavaScript to create a countdown timer that displays the remaining time in seconds.
 
-Answer:
+Answer: <!DOCTYPE html>
+<html>
+<head>
+  <title>Button Click Counter</title>
+</head>
+<body>
+
+  <button id="clickButton">Click Me!</button>
+  <p>Button clicked <span id="count">0</span> times.</p>
+
+  <script src="script.js"></script> 
+
+</body>
+</html>
+// Get the button and count display element by their IDs
+const button = document.getElementById('clickButton');
+const countDisplay = document.getElementById('count');
+
+// Initialize a counter variable
+let count = 0;
+
+// Add an event listener for the button click
+button.addEventListener('click', function() {
+  count++; 
+  countDisplay.textContent = count; 
+});
+
 
 Question: Use Git to create and merge a branch. Explain the purpose of branches in collaborative development.
 
@@ -254,7 +461,7 @@ Question: Write CSS to make an image responsive and centered within its containe
 
 Answer:
 
-Question: Write JavaScript to validate an email input field in a form and display an error message if invalid.
+Question: Write JavaScript to validate an email input field in a form and display an error message if it is invalid.
 
 Answer:
 
@@ -264,4 +471,39 @@ Answer:
 
 Question: Use CSS Flexbox to create a simple navigation bar with evenly spaced items.
 
-Answer:
+Answer: <html>
+  <body>
+    <div class="container">
+      <div>
+        <a>Home</a>
+      </div>
+      <div>
+        <a>Search</a>
+      </div>
+      <div>
+        <a>Tools</a>
+      </div>
+      <div>
+        <a>Help</a>
+      </div>
+    </div>
+  </body>
+</html>
+
+.class-container {
+}
+
+/*create a flex for container */
+.container {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lavender;
+  border-radius: 8px;
+}
+
+div {
+  margin: 10px;
+  padding: 14px;
+  border: 2px solid black;
+}
