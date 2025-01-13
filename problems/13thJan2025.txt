@@ -1,0 +1,57 @@
+Watch the following videos (All, skip none)
+1. https://www.youtube.com/watch?v=q-xS25lsN3I
+2. https://www.youtube.com/watch?v=ENrzD9HAZK4
+3. https://youtu.be/TlB_eWDSMt4?si=QR1t8e-3fEBeUdQz
+
+
+Watch the first 2 videos and start solving the problems below. Watch the third video after you have solved all the problems.
+
+Conceptual Problems (5 Questions)
+
+Question: What is a server? Explain its purpose and how it interacts with a client in a web application.
+
+Answer:
+
+Question: What is a port in the context of a server? Why do we specify ports like 3000 or 8080 when creating a server?
+
+Answer:
+
+Question: What is a library in Node.js? How does it help developers? Provide an example of a library in Node.js.
+
+Answer:
+
+Question: Explain the purpose of the http module in Node.js. How is it different from other libraries like fs?
+
+Answer:
+
+Question: What is the difference between exporting and importing in Node.js? Provide an example of how to export and import a module.
+
+Answer:
+
+
+Coding Problems (5 Questions)
+
+Question: Write a Node.js script to create a simple server using the http module that responds with "Hello, World!" when accessed on port 3000.
+
+Answer:
+
+Question: Modify the server from the previous question to respond with "Welcome to my server!" when accessed at /welcome and "Page not found" for other routes.
+
+Answer:
+
+Question: Create a module named greet.js that exports a function to greet a user by name. Import the module into another script and use it to greet a user.
+
+Answer:
+
+Question: Write a script to log the details of every request made to your server (e.g., request method and URL).
+
+Answer:
+
+Question: Use the http module to create a server that returns JSON data for a route /data. The JSON should include a simple object like:
+{
+  "message": "Hello, this is JSON!",
+  "status": "success"
+}
+Learn about JSON from here: https://youtu.be/iiADhChRriM?si=cNOLYXMWe68leplG, https://youtu.be/Co1sJkaI1nM?si=ggW2g50TAGjO5Nww
+
+Answer: 
