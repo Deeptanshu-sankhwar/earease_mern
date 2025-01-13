@@ -98,89 +98,262 @@ Answer:
 
 2. Charan Problems
 
-Question: Create a new Git repository and commit an empty README file.
+Question 1: Create a new Git repository and commit an empty README file.
+
+Answer: $git checkout -b dev/charan
+        $git remote set-url origin "https://github.com/charanreddytrail/devcharan"
+        $touch README.md
+        $git add README.md
+        $git commit -m "added an empty readme file"
+        $git push origin dev/charan
+
+
+Question 2: Write a basic HTML structure for a webpage, including <doctype>, <html>, <head>, and <body> tags.
+
+Answer: <!DOCTYPE html>
+        <html>
+            <title>
+                sample 
+            </title>
+            <head>
+                This is a sample page
+            </head>
+            <body>
+                <h1 align="center">Welcome to the pratice space</h1>
+            </body>
+        </html>
+
+Question 3: Style a button using CSS to have a blue background, white text, and rounded corners.
+
+Answer:<!DOCTYPE html>
+        <html>
+            <title>
+                sample 
+            </title>
+            <head>
+                This is a sample page
+                <style>
+                .blue-btn
+                {
+                    background-color:blue;
+                    color:white;
+                    border-radius:10px;
+                    cursor:pointer;
+                }
+            </style>
+            </head>
+            <body>
+                <h1 align="center">Welcome to the pratice space</h1>
+                <button class="blue-btn">Button</button>
+            </body>
+        </html>
+
+Question 4: Write JavaScript to log "Hello, World!" to the console when the page loads.
+Answer:
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <title>Simple Console Log</title>
+        </head>
+        <body>
+        <h1>Check the Console!</h1>
+        <script>
+            console.log("Hello, World!");
+        </script>
+        </body>
+        </html>
+
+
+Question 5: Use the git log command to view the commit history. Explain what information it provides.
+
+Answer: $git log
+        commit e71c9f9d768ed80501fb97d0d5a3d9d79bcfbe15 (HEAD -> dev/charan, origin/dev/
+        charan)
+        Author: charanreddytrail <charanreddy1736@gmail.com>
+        Date:   Sat Jan 11 07:58:36 2025 +0530
+
+            empty readme file added
+        description: it provides the information of the commits which are done previously and shows where the modifications are done.
+
+Question 6: Create an HTML form with fields for username, password, and a login button.
+
+Answer: <!DOCTYPE html>
+        <html>
+        <head>
+        <title>Simple Login Form</title>
+        </head>
+        <body>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <button type="submit">Login</button>
+        </form>
+        </body>
+        </html>
+
+
+Question 7: Write CSS to create a shadow effect for a card element.
 
 Answer:
 
-Question: Write a basic HTML structure for a webpage, including <doctype>, <html>, <head>, and <body> tags.
+Question 8: Write a JavaScript function to add two numbers and return the result.
+
+Answer:
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <title>Add Two Numbers</title>
+        <script>
+            function addNumbers() {
+            var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
+            var sum = num1 + num2;
+            document.getElementById('result').innerHTML = "The sum is: " + sum;
+            }
+        </script>
+        </head>
+        <body>
+        <h1>Simple Addition</h1>
+        <input type="number" id="num1" placeholder="Enter first number" />
+        <input type="number" id="num2" placeholder="Enter second number" />
+        <button onclick="addNumbers()">Add Numbers</button>
+        <p id="result"></p>
+        </body>
+        </html>
+
+
+Question 9: What is the purpose of the .gitignore file? Write a sample .gitignore entry to ignore all .log files.
 
 Answer:
 
-Question: Style a button using CSS to have a blue background, white text, and rounded corners.
+Question 10: Create a webpage with a list of your favorite movies using the <ul> and <li> tags.
+
+Answer:
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <title>My Favorite Movies</title>
+        </head>
+        <body>
+        <h1>My Favorite Movies</h1>
+        <ul>
+            <li>Inception</li>
+            <li>The Dark Knight</li>
+            <li>Interstellar</li>
+            <li>The Shawshank Redemption</li>
+            <li>Avengers: Endgame</li>
+        </ul>
+        </body>
+        </html>
+
+
+Question 11: Use CSS Flexbox to center a div both vertically and horizontally within the viewport.
 
 Answer:
 
-Question: Write JavaScript to log "Hello, World!" to the console when the page loads.
+Question 12: Write JavaScript to change the background color of a div when a button is clicked.
 
 Answer:
 
-Question: Use the git log command to view the commit history. Explain what information it provides.
+Question 13: Demonstrate how to create a new branch in Git and push it to a remote repository.
+
+Answer: $git checkout -b dev/charan
+        $git branch
+        $git add .
+        $git commit -m "added new branch"
+        $git push -u origin dev/charan
+        $git branch -r
+
+Question 14: Create an HTML table to display a schedule with columns for time, activity, and location.
+
+Answer:
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <title>Simple Schedule</title>
+        </head>
+        <body>
+        <h1>Schedule</h1>
+        <table border="">
+            <tr>
+            <th>Time</th>
+            <th>Activity</th>
+            <th>Location</th>
+            </tr>
+            <tr>
+            <td>9:00 AM</td>
+            <td>Breakfast</td>
+            <td>Kitchen</td>
+            </tr>
+            <tr>
+            <td>12:00 PM</td>
+            <td>Study</td>
+            <td>Library</td>
+            </tr>
+            <tr>
+            <td>3:00 PM</td>
+            <td>Workout</td>
+            <td>Gym</td>
+            </tr>
+        </table>
+        </body>
+        </html>
+
+
+Question 15: Write CSS to make a navigation bar stick to the top of the page when scrolling.
 
 Answer:
 
-Question: Create an HTML form with fields for username, password, and a login button.
+Question 16: Write JavaScript to count the number of times a button is clicked and display the count.
+
+Answer:
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <title>Click Counter</title>
+        <script>
+            let count = 0;
+            function incrementCount() 
+            {
+            count++; 
+            document.getElementById('counter').innerHTML = "Button clicked: " + count + " times";
+            }
+        </script>
+        </head>
+        <body>
+        <h1>Click Counter</h1>
+        <button onclick="incrementCount()">Click Me</button>
+        <p id="counter">Button clicked: 0 times</p>
+        </body>
+        </html>
+
+
+Question 17: Use Git to revert to a previous commit. Explain the difference between git revert and git reset.
+
+Answer: $git revert <commit_hash>
+        $git reset --hard <commit hash>
+        git revert:it keeps history of commits, and it doesnt alter history and safe.
+        git reset: it keeps changes of commits history, and it alter history and dangerous.
+
+Question 18: Create a webpage using semantic HTML tags like <header>, <footer>, and <article> to describe a blog post.
 
 Answer:
 
-Question: Write CSS to create a shadow effect for a card element.
+Question 19: Use CSS Grid to create a three-column layout with rows for a header, content, and footer.
 
 Answer:
 
-Question: Write a JavaScript function to add two numbers and return the result.
-
-Answer:
-
-Question: What is the purpose of the .gitignore file? Write a sample .gitignore entry to ignore all .log files.
-
-Answer:
-
-Question: Create a webpage with a list of your favorite movies using the <ul> and <li> tags.
-
-Answer:
-
-Question: Use CSS Flexbox to center a div both vertically and horizontally within the viewport.
-
-Answer:
-
-Question: Write JavaScript to change the background color of a div when a button is clicked.
-
-Answer:
-
-Question: Demonstrate how to create a new branch in Git and push it to a remote repository.
-
-Answer:
-
-Question: Create an HTML table to display a schedule with columns for time, activity, and location.
-
-Answer:
-
-Question: Write CSS to make a navigation bar stick to the top of the page when scrolling.
-
-Answer:
-
-Question: Write JavaScript to count the number of times a button is clicked and display the count.
-
-Answer:
-
-Question: Use Git to revert to a previous commit. Explain the difference between git revert and git reset.
-
-Answer:
-
-Question: Create a webpage using semantic HTML tags like <header>, <footer>, and <article> to describe a blog post.
-
-Answer:
-
-Question: Use CSS Grid to create a three-column layout with rows for a header, content, and footer.
-
-Answer:
-
-Question: Write JavaScript to fetch data from an API and display the results on the webpage.
+Question 20: Write JavaScript to fetch data from an API and display the results on the webpage.
 
 Answer:
 
 
 
-3. Akitha Problems
+3. Akhita Problems
 
 Question: Write JavaScript to fetch data from an API and display the results on the webpage.
 
