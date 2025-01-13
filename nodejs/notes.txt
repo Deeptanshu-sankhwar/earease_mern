@@ -1,0 +1,27 @@
+Vanilla JS - runs in the browser(within the web browser such as chrome, firefox) - which is known as Client-side JS. Its used in making webpages interactive. 
+
+Node JS - it runs on the server-side, which execute the javascript code outside the browser. 
+
+both NodeJS and Vanilla JS uses module - ES6. 
+
+Definition of Node JS: Node JS is a runtime environment that allows you to run JavaScript outside the browser.
+
+Purpose of NodeJS: 
+1. Helps us build server-side applications using JavaScript
+2. Handle asynchronous operations well.
+
+Differences between client side js and server side js:
+1. client side js runs in the browser to manage user interface interactions and server side js runs on a server to handle backend logic, database interactions, and API requests
+2. Client side js code is visible to user, server side js code is hidden and secure
+3. Server side provides more security to js files and any private information
+
+zomato.com made a deal with SBI, allowing zomato to access SBI net banking for payments. SBI gave the access to zomato to use its net banking service, and SBI gave a secret password for zomato to access. Should zomato write the code to access SBI networking on client side or server side?
+
+- zomato.com will preserve its keys within the server side code such that they are not exposed to the oustide world.
+
+Why Node JS? Why not any other language for writing server?
+1. Developer experience: Once you learn js, you can create both client and server in the same language.
+2. Fast and Scalable: its built on v8 javascript engine (optional)
+3. Node JS can handle multiple requests efficiently (event loop)
+
+Question 1: Create a server which runs on port 4123 of your local machine and keeps adding 2 to a number set to a default value of 0, everytime you reload the page (everytime you make a request to the server).
